@@ -86,15 +86,12 @@ export default function App() {
         <div className="header-inner">
           <div className="header-brand">
             <h1 className="header-title">Sentinel Orbit</h1>
-            <span className="header-subtitle">URL Threat Intelligence System</span>
           </div>
           <div className="header-meta">
             <div className="header-status-group">
               <span className="header-status-dot" />
               <span className="header-status-text">All Systems Operational</span>
             </div>
-            <span className="header-divider" />
-            <span className="header-tag">AI · ML · Cybersecurity</span>
           </div>
         </div>
         <div className="header-scanline" aria-hidden="true" />
@@ -125,17 +122,6 @@ export default function App() {
           </section>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="app-footer">
-        <div className="footer-inner">
-          <span>Sentinel Orbit &copy; {new Date().getFullYear()}</span>
-          <span className="footer-divider">·</span>
-          <span>Static Analysis Only · No Data Transmitted</span>
-          <span className="footer-divider">·</span>
-          <span>MIT License</span>
-        </div>
-      </footer>
     </div>
   );
 }

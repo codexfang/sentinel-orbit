@@ -180,7 +180,7 @@ export default function InputPanel({ onAnalyze, isLoading, scanStep }) {
       <div className="engine-status">
         <span className="status-dot" />
         <span>Threat Engine Online</span>
-        <span className="engine-version">v2.4.1</span>
+        <span className="engine-version">v1.0</span>
       </div>
     </div>
   );
