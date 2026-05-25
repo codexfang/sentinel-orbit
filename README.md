@@ -13,7 +13,7 @@ A production-quality cybersecurity intelligence tool that analyzes URLs for phis
 | Ensemble ML Model | 15-tree weighted random forest–style rule system |
 | Risk Visualization | Animated semi-circular gauge, feature bar charts, tree vote minimap |
 | Analyst Report | Human-readable threat explanation in security analyst tone |
-| ⏱Timeline Trace | Step-by-step reasoning pipeline visualization |
+| Timeline Trace | Step-by-step reasoning pipeline visualization |
 | Scan History | localStorage-persisted recent scans with one-click re-scan |
 | Export Reports | Download results as JSON or plain-text report |
 | Sample URL Library | Curated safe, phishing, and mixed-risk URLs for demo |
