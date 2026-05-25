@@ -1,0 +1,83 @@
+{
+  "safe": [
+    {
+      "url": "https://www.google.com",
+      "label": "Google Search",
+      "expectedRisk": "low"
+    },
+    {
+      "url": "https://github.com/login",
+      "label": "GitHub Login",
+      "expectedRisk": "low"
+    },
+    {
+      "url": "https://www.amazon.com/gp/cart/view.html",
+      "label": "Amazon Cart",
+      "expectedRisk": "low"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/tagged/javascript",
+      "label": "Stack Overflow",
+      "expectedRisk": "low"
+    },
+    {
+      "url": "https://www.wikipedia.org/wiki/Cybersecurity",
+      "label": "Wikipedia",
+      "expectedRisk": "low"
+    }
+  ],
+  "phishing": [
+    {
+      "url": "http://secure-login.paypal-verify.xyz/account/update?token=x9a2bc",
+      "label": "PayPal Phishing",
+      "expectedRisk": "critical"
+    },
+    {
+      "url": "http://192.168.1.1/bank/login?redirect=http://evil.com",
+      "label": "IP-based Phishing",
+      "expectedRisk": "critical"
+    },
+    {
+      "url": "http://amaz0n-secure-verify.top/signin/confirm",
+      "label": "Amazon Spoof",
+      "expectedRisk": "critical"
+    },
+    {
+      "url": "https://apple-id-verify-account.click/update/password",
+      "label": "Apple ID Phishing",
+      "expectedRisk": "high"
+    },
+    {
+      "url": "http://microsoft-support-security.xyz/login-reset",
+      "label": "Microsoft Phish",
+      "expectedRisk": "critical"
+    }
+  ],
+  "mixed": [
+    {
+      "url": "https://bankofamerica-secure.com/login",
+      "label": "Bank Spoof (mixed signals)",
+      "expectedRisk": "high"
+    },
+    {
+      "url": "https://signin.paypal.com.account-recovery.net/verify",
+      "label": "PayPal Subdomain Spoof",
+      "expectedRisk": "high"
+    },
+    {
+      "url": "http://offers.deals-today.shop/free-iphone-giveaway",
+      "label": "Suspicious Giveaway",
+      "expectedRisk": "medium"
+    },
+    {
+      "url": "https://login.outlook.com.verify-account.biz/reset",
+      "label": "Outlook Spoof",
+      "expectedRisk": "high"
+    },
+    {
+      "url": "https://discount-shop.online/summer-sale/verify-email",
+      "label": "Discount Shop",
+      "expectedRisk": "medium"
+    }
+  ]
+}

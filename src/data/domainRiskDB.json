@@ -1,0 +1,45 @@
+{
+  "highRisk": [
+    "xyz", "top", "click", "gq", "ml", "cf", "tk", "pw", "cc",
+    "biz", "shop", "online", "site", "website", "tech", "info",
+    "live", "stream", "host", "link", "today", "deals", "win",
+    "gift", "free", "cash", "loan", "zip", "review", "support",
+    "help", "service", "claim", "bonus", "offer"
+  ],
+  "mediumRisk": [
+    "net", "org", "co", "io", "app", "dev", "me", "us",
+    "mobi", "name", "pro", "tv", "fm"
+  ],
+  "lowRisk": [
+    "com", "gov", "edu", "mil", "int", "ac", "uk", "de",
+    "fr", "jp", "ca", "au", "nl", "se", "no", "dk"
+  ],
+  "knownBenign": [
+    "google.com", "github.com", "microsoft.com", "apple.com",
+    "amazon.com", "facebook.com", "twitter.com", "linkedin.com",
+    "stackoverflow.com", "wikipedia.org", "youtube.com",
+    "cloudflare.com", "netlify.com", "vercel.com", "stripe.com"
+  ],
+  "knownMalicious": [
+    "paypal-verify.xyz", "secure-login.xyz", "account-verify.top",
+    "bank-update.click", "microsoft-support.xyz", "apple-verify.xyz"
+  ],
+  "domainAgeRisk": {
+    "newDomain": {
+      "maxAgeDays": 30,
+      "riskScore": 35
+    },
+    "recentDomain": {
+      "maxAgeDays": 180,
+      "riskScore": 15
+    },
+    "establishedDomain": {
+      "maxAgeDays": 365,
+      "riskScore": 5
+    },
+    "matureDomain": {
+      "maxAgeDays": 99999,
+      "riskScore": 0
+    }
+  }
+}
