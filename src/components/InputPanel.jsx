@@ -112,18 +112,6 @@ export default function InputPanel({ onAnalyze, isLoading, scanStep }) {
         </button>
       </form>
 
-      {/* Sample Scan Button */}
-      <button
-        id="sample-scan-btn"
-        className="sample-toggle-btn"
-        onClick={() => setShowSamples(!showSamples)}
-        disabled={isLoading}
-      >
-        <span>📋</span>
-        <span>{showSamples ? 'Hide Samples' : 'Try Sample Scan'}</span>
-        <span className={`chevron ${showSamples ? 'open' : ''}`}>▾</span>
-      </button>
-
       {/* Sample URL Picker */}
       {showSamples && (
         <div className="sample-panel" role="listbox" aria-label="Sample URLs">
